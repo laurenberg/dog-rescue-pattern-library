@@ -1,0 +1,19 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+:root {
+  --color-primary: #297c84;
+  --color-primary-light: #359ba0;
+  --color-secondary: #a02d2d;
+  --color-accent: #ffcf06;
+
+  --font-primary: "Fredoka One", sans-serif;
+  --font-secondary: "Josefin Slab", serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
