@@ -23,3 +23,7 @@
   background-color: var(--color-secondary);
   border-color: var(--color-secondary);
 }
+
+.btn-ghost:hover {
+  color: #fff;
+}
