@@ -1,10 +1,25 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
 .btn {
-  background-color: var(--color-primary);
-  border-color: var(--color-primary);
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+
+  color: #fff;
+}
+
+.btn-light {
+  background-color: var(--color-primary-light);
+  border-color: var(--color-primary-light);
+
+  color: #fff;
+}
+
+.btn-ghost {
+  background-color: transparent;
+  border-color: var(--color-secondary-light);
+
+  color: var(--color-secondary);
+}
+
+.btn:hover {
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
 }
