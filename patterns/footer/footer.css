@@ -1,0 +1,36 @@
+.gutter-cust {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.bg {
+  background-color: var(--color-primary);
+}
+
+.bg-2 {
+  height: 50px;
+  margin-top: 50px;
+}
+
+.list {
+  padding-top: 0.5em;
+}
+
+.copy {
+  color: white;
+}
+
+.white {
+  color: #fff;
+}
+
+.nav {
+  position: relative;
+}
+
+.nav a:active,
+.nav a:focus,
+.nav .current {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
